@@ -12,6 +12,14 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    @IBOutlet weak var titlescreen: UIImageView!
+    
+    let context = CIContext(options: nil)
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
